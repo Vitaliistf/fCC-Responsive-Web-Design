@@ -1,0 +1,53 @@
+@media (min-width: 1000px) {
+    body {
+        display: flex;
+        margin: 0;
+    }
+}
+
+#navbar * {
+    padding: 14px 20px;
+    border-bottom: black 1px solid;
+}
+
+#navbar header {
+    font-size: 30px;
+}
+
+#navbar .nav-link {
+    font-size: 18px;
+    color: #4d4e53;
+    text-decoration: none;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+
+    border: black 1px solid;
+    position: fixed;
+    height: 100%;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 330px;
+}
+
+body {
+    font-family: Sans-Serif;
+}
+
+section p,
+section li,
+section code {
+    color: #4d4e53;
+}
+
+section code {
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    padding: 12px;
+    margin: 12px;
+}

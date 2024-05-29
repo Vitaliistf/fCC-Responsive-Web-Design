@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(#393e46, #222831);
+    text-align: center;
+    font-family: Sans-serif;
+}
+
+.form-card {
+    max-width: 800px;
+    margin: 50px auto;
+    color: #f2f2f2;
+    border: solid #f96d00 2px;
+    background-color: #222831;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+textarea {
+    resize: vertical;
+    width: 100%;
+}
+
+#submit {
+    margin-top: 20px;
+    color: #f2f2f2;
+    background-color: #393e46;
+    border: solid #f96d00 1px;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+}
+
+input,
+select {
+    border: solid #f96d00 1px;
+    border-radius: 5px;
+}
